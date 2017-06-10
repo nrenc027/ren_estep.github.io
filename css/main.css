@@ -43,8 +43,8 @@ footer{
 .column img{
 	width: 65%;
 	 border-radius: 50%;
-	margin-bottom: 1.25em; 
-	
+	margin-bottom: 1.25em;
+
 }
 .column p {
   text-align: justify;
@@ -123,7 +123,7 @@ nav li {
 
 #brand a {
 	display: block;
-	background: url('../images/r.svg') no-repeat top left;
+	/*background: url('../images/r.svg') no-repeat top left;*/
 	color: transparent;
 	height: 1.75em;
 	width: 1.75em;
@@ -161,7 +161,7 @@ nav li {
 
 }
 #hero{
-	background:  
+	background:
 		linear-gradient(
 		rgba(0, 167, 157,0.5),
 		rgba(243, 110, 56,0.5)),
@@ -219,8 +219,8 @@ nav li {
 	color: #fafafa;
     padding: .8em 0;
     text-align: center;
-    font-family: 'Josefin Sans', sans-serif; 
-  	
+    font-family: 'Josefin Sans', sans-serif;
+
 }
 
 .social .container h3 {
@@ -228,18 +228,18 @@ nav li {
 }
 
 .social-list{
-	
+
 	list-style: none;
     display: inline-block;
     margin: 0;
     padding: 0;
-    font-size: 3em;
+    /*font-size: 3em;*/
 
 }
 
 .social-item{
 	display: inline-table;
-	
+
 }
 .social-item a{
 	text-decoration: none !important;
@@ -273,11 +273,11 @@ nav li {
 }
 
 .popup {
-  margin: 25% auto;
-  padding: 20px;
+  margin: 15% auto;
+  padding: 1em;
   background: #fff;
   border-radius: 5px;
-  width: 30%;
+  max-width: 60%;
   position: relative;
 
   /*transition: all 10ms ease-in-out;*/
@@ -287,7 +287,7 @@ nav li {
 .popup h2 {
   margin-top: 0;
   color: #333;
-  
+
 }
 .popup .close {
   position: absolute;
@@ -316,6 +316,10 @@ nav li {
     padding: 1em; /* 16px */
     margin: 0;
   }
+
+	nav ul{
+		display: none;
+	}
 }
 
 
@@ -323,24 +327,26 @@ nav li {
   .column {
     padding: 0.625em; /* 10px */
   }
+	.popup {
+	  margin: 25% auto;
+		min-width: 50%;
+
 }
 
 @media (max-width: 26em){
 .social{
 	padding: .3em 0;
 }
-.social .container h3 {
+/*.social .container h3 {
 	 font-size: 1.1em;
 }
 .social-list{
 	font-size: 2em;
-}
+}*/
+
+.popup {
+	margin: 25% auto;
 
 }
 
-
-
-
-
-
-
+}

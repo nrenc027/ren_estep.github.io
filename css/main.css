@@ -290,10 +290,11 @@ nav li {
 
 }
 .popup .close {
-  position: absolute;
+  /*position: absolute;
   top: 20px;
-  right: 30px;
+  right: 30px;*/
   /*transition: all 1ms;*/
+	float:right;
   font-size: 30px;
   font-weight: bold;
   text-decoration: none;
@@ -307,7 +308,10 @@ nav li {
   max-height: 30%;
   overflow: hidden;
 }
+.closeContent{
+	min-width: 100%;
 
+}
 
 @media (min-width: 44em) {
   .column {
@@ -347,6 +351,14 @@ nav li {
 }
 #hero p{
 	font-size: 1.5em;
+}
+.popup .close{
+	float:right;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+
 }
 
 .popup {

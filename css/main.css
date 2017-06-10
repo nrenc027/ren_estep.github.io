@@ -329,7 +329,11 @@ nav li {
   }
 	.popup {
 	  margin: 25% auto;
-		min-width: 50%;
+		min-width: 50%;}
+
+		#hero h2{
+			font-size: 3em;
+		}
 
 }
 

@@ -35,14 +35,14 @@
 
 	<div ng-app="App" ng-controller="AppCtrl">
 
-
+<!--
 		<md-sidenav class="md-sidenav-right md-whiteframe-z2" md-component-id="right" md-is-locked-open="$mdMedia('')">
 			<md-toolbar class="logo" ng-click="toggleSidenav('right')">
 				<h1 class="textCenter" ng-click="toggleSidenav('right')">
-<a class="nav_scroll" href="#hero" ng-click="toggleSidenav('right')">
-<img src="images/R.svg" alt="logo brand" />
-</a>
-</h1>
+					<a class="nav_scroll" href="#hero" ng-click="toggleSidenav('right')">
+						<img src="images/R.svg" alt="logo brand" />
+					</a>
+				</h1>
 			</md-toolbar>
 			<md-content>
 				<md-list>
@@ -78,14 +78,12 @@
 
 			</md-content>
 
-		</md-sidenav>
+		</md-sidenav> -->
 		<!-- End Sidenav -->
 
 
 
 		<section layout="column" role="main" flex>
-
-
 
 			<md-content>
 
@@ -94,29 +92,55 @@
 					<div class="md-toolbar-tools">
 
 
-						<h2 class="md-title nav_scroll"> <a href="#hero" class="nav_scroll">Ren Cummings</a></h2>
+						<h2 class="md-title nav_scroll"> <a href="#hero" class="nav_scroll"><img class="logoImg" src="images/R.svg"/></a></h2>
 						<span flex></span>
-						<md-button class="md-icon-button " ng-click="toggleSidenav('right')" aria-label="Menu">
+
+						<div class="lock-size" layout="row" layout-align="center center">
+      <md-fab-speed-dial md-open="false" md-direction="left">
+        <md-fab-trigger>
+          <md-button aria-label="menu" class="md-icon-button ">
+          <md-icon><i class="material-icons">menu</i></md-icon>
+          </md-button>
+        </md-fab-trigger>
+
+        <md-fab-actions>
+					<md-button aria-label="Google Hangout" class="md-fab md-raised md-mini">
+						<md-tooltip>Contact</md-tooltip>
+						<md-icon><i class="material-icons">announcement</i></md-icon>
+
+					</md-button>
+          <md-button aria-label="Facebook" class="md-fab md-raised md-mini">
+						<md-tooltip>Resume</md-tooltip>
+						<md-icon><i class="material-icons">photo_filter</i></md-icon>
+          </md-button>
+
+					<md-button aria-label="Twitter" class="md-fab md-raised md-mini">
+						<md-tooltip>About</md-tooltip>
+						<md-icon><i class="material-icons">person</i></md-icon>
+          </md-button>
+        </md-fab-actions>
+      </md-fab-speed-dial>
+    </div>
+
+						<!-- <md-button class="md-icon-button " ng-click="toggleSidenav('right')" aria-label="Menu">
 							<md-icon><i class="material-icons">menu</i></md-icon>
-						</md-button>
-
-
+						</md-button> -->
 
 					</div>
 				</md-toolbar>
 
 
 
-
+			<div class="intro">
 				<section id="hero">
 
-					<img src="images/zebra-me.jpg" alt="IMA Zebra" />
+						<img src="images/zebra-me.jpg" alt="IMA Zebra" />
 
-					<h2>Ren Cummings</h2>
-					<div class="city">DAYTON, OH</div>
+						<h2>Ren Cummings</h2>
+						<div class="city">DAYTON, OH</div>
 
 				</section>
-
+			</div>
 				<section class="main">
 					<div class="container">
 
@@ -128,14 +152,14 @@
 								<div class="contentContainer">
 									<div class="autoMarg">
 										<div class="column">
-											<img class="imgShadow" src="images/heart.svg" alt="IMA Zebra" />
+											<img class="imgShadow" src="images/thisIsMe.jpg" alt="IMA Zebra" />
 										</div>
 
 										<div class="contentColumn">
 											<h2>Hello! I'm Ren.</h2>
 											<p>
 												I am a self taught front-end developer working on becoming a full-stack software developer. I work for a local start-up in Dayton,OH as a UI/UX specialist and front-end designer/developer. I also do the work of a creative department. I enjoy creative
-												problem solving and working through challenges that activate the stimulation of the brain.
+												problem solving and working through challenges that activate and stimulate the brain.
 											</p>
 
 											<p>
@@ -250,7 +274,7 @@
 									<li class="social-item">
 										<a href="https://www.linkedin.com/in/rencummings/" target="_blank">
 											<i class="fa fa-linkedin" aria-hidden="true"></i></a>
-											<!-- <img src="images/linkedin.svg" alt="linkedin" /> -->
+										<!-- <img src="images/linkedin.svg" alt="linkedin" /> -->
 										</a>
 									</li>
 									<li class="social-item">
@@ -266,13 +290,13 @@
 										</a>
 									</li>
 									<li class="social-item">
-										<a  href="https://github.com/nrenc027" target="_blank">
+										<a href="https://github.com/nrenc027" target="_blank">
 											<i class="fa fa-github" aria-hidden="true"></i>
 											<!-- <img src="images/instagram.svg" alt="instagram" /> -->
 										</a>
 									</li>
 									<li class="social-item">
-										<a  href="https://www.freecodecamp.com/nrenc027" target="_blank">
+										<a href="https://www.freecodecamp.com/nrenc027" target="_blank">
 											<i class="fa fa-free-code-camp" aria-hidden="true"></i>
 											<!-- <img src="images/instagram.svg" alt="instagram" /> -->
 										</a>

@@ -49,9 +49,9 @@
 						<span flex></span>
 
 						<div class="lock-size" layout="row" layout-align="center center">
-      <md-fab-speed-dial md-open="false" md-direction="left">
+      <md-fab-speed-dial md-open="false" md-direction="left" >
         <md-fab-trigger>
-          <md-button aria-label="menu" class="md-icon-button ">
+          <md-button aria-label="menu" class="md-icon-button">
           <md-icon><i class="material-icons">menu</i></md-icon>
           </md-button>
         </md-fab-trigger>
@@ -71,26 +71,30 @@
 						<md-tooltip>About</md-tooltip>
 						<md-icon><i class="material-icons">person</i></md-icon>
           </md-button>
+					<md-button aria-label="About" class="md-fab md-raised md-mini nav_scroll" href="#hero">
+						<md-tooltip>Home</md-tooltip>
+						<md-icon><i class="material-icons">home</i></md-icon>
+          </md-button>
+
         </md-fab-actions>
       </md-fab-speed-dial>
     </div>
-
-						<!-- <md-button class="md-icon-button " ng-click="toggleSidenav('right')" aria-label="Menu">
-							<md-icon><i class="material-icons">menu</i></md-icon>
-						</md-button> -->
 
 					</div>
 				</md-toolbar>
 
 
 
-			<div class="intro">
+			<div >
 				<section id="hero">
 
-						<img src="images/zebra-me.jpg" alt="IMA Zebra" />
+						<md-card class="intro">
+							<h3>I was once told that you should be able to tell someone concisely what you do in the time it takes you to ride in an elevator.  In three words I would say:</h3></br>
 
-						<h2>Ren Cummings</h2>
-						<div class="city">DAYTON, OH</div>
+							<h2 class="textCenter">Coding, Coloring, & Cardio.</h2>
+
+						</md-card>
+
 
 				</section>
 			</div>
@@ -115,9 +119,6 @@
 												problem solving and working through challenges that activate and stimulate the brain.
 											</p>
 
-											<p>
-												<strong>The Gist:</strong><br /> I enjoy coding, coloring, and cardio!
-											</p>
 										</div>
 
 									</div>

@@ -89,6 +89,7 @@ md-sidenav{
 }
 md-tooltip{
 	color: #000 !important;
+	margin-top: 1em;
 	font-size: 1em !important;
 }
 md-divider{
@@ -120,6 +121,7 @@ padding: 0 -5% !important;
 .textCenter{
 	text-align: center;
 }
+
 
 md-list-item button {
 	display: none !important;
@@ -275,13 +277,23 @@ nav li {
 		url(../images/backing-hero.png) no-repeat center center fixed;
 		background-size: cover;
   	color: #fafafa;
-  	text-align: center;
+  	/*text-align: center;*/
   	height: 40em;
   	padding: 1.5625em 0;
 
 
 }
+#hero .intro{
+	margin: 10em auto;
+	padding: 5em;
+	background: rgba(250,250,250,0.45);
+	max-width: 55%;
+}
 
+#hero h3, h4{
+	text-align: left !important;
+	margin-left: 3em !important;
+}
 
 #hero img {
 
@@ -292,25 +304,6 @@ nav li {
   -moz-box-shadow: 2px 7px 25px -2px rgba(0,0,0,0.43);
   box-shadow: 2px 7px 25px -2px rgba(0,0,0,0.43);
 
-
-}
-
-#hero h2{
-	font-size: 4em;
-	margin-bottom: .25em;
-	margin-top: .25em;
-	font-family: 'Anton', sans-serif;
-	text-shadow: 0.125rem 0.125rem 0.5rem #000;
-}
-
-
-#hero .city{
-	font-size: 1.5em;
-	color: #fff;
-	border-bottom: .125em #fff solid ;
-	display: inline-block;
-	font-family: 'Josefin Sans', sans-serif;
-	text-shadow: 0.125rem 0.125rem 0.5rem #000;
 
 }
 

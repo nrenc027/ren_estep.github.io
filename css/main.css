@@ -26,7 +26,7 @@ h2,h3,h4,p{
 
 footer{
 	width: 100%;
-	background-color: #FF6E33;
+	background-color: #000;
 	opacity: .8;
 	margin: 0;
 	padding: .5em 0;
@@ -89,6 +89,7 @@ md-sidenav{
 }
 md-tooltip{
 	color: #000 !important;
+	font-size: 1em !important;
 }
 md-divider{
 	margin: 0 .5em!important;
@@ -221,6 +222,7 @@ nav li {
 .helloBack{
 	max-width: 85%;
 	margin: 0 auto 0 auto;
+	background: rgba(255, 250, 250, 0.45)!important;
 }
 
 .helloBack h4 {
@@ -229,12 +231,20 @@ nav li {
 	font-size: 2.5em;
 
 }
+.helloBack .container {
+	text-align: center !important;
+
+
+}
+
+
 .helloBack h4 a {
-	color: rgba(0,0,0,0.8);
+	color: #000;
 	text-decoration: none;
+
 }
 .helloBack h4 a:hover {
-	text-shadow: 0.130rem 0.130rem 0.3rem #000;
+	text-shadow: 0.130rem 0.130rem 0.3rem rgba(0,0,0,0.5);
 }
 .helloBack h2{
 
@@ -249,8 +259,9 @@ nav li {
 	padding: 5% 0 10% 0;
 }
 #contact{
-
 	padding: 10% 0 5% 0;
+	background: url(../images/backing-contact.png) no-repeat center center fixed;
+	background-size: cover;
 }
 /*End Header*/
 
@@ -261,7 +272,7 @@ nav li {
 		linear-gradient(
 		rgba(250, 250, 250,0.4),
 		rgba(0, 0, 0,0.8)),
-		url(../images/pattern1.png) no-repeat center center fixed;
+		url(../images/backing-hero.png) no-repeat center center fixed;
 		background-size: cover;
   	color: #fafafa;
   	text-align: center;
@@ -311,7 +322,7 @@ nav li {
 
 .social {
 	width: 100%;
-	background-color: #1CBCBD;
+	background-color: #8f838a;
 	color: #fafafa;
     padding: .8em 0;
     text-align: center;
@@ -339,7 +350,7 @@ nav li {
 }
 .social-item a{
 	text-decoration: none !important;
-	color: #fafafa;
+	color: #000;
 	padding: 0 1.1em;
     display: block;
     transition: transform 150ms ease-in-out;
@@ -416,22 +427,6 @@ nav li {
 }
 #hero p{
 	font-size: 1.5em;
-}
-.popup .close{
-	float:right;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-
-}
-
-.popup {
-	margin: 25% auto;
-
-}
-#contactPop .popup .popContent h4 a{
-	font-size: 1.2em;
 }
 
 }

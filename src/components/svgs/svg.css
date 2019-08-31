@@ -1,0 +1,39 @@
+.Nav-svg {
+  fill: var(--c-accent-purple);
+  height: calc(var(--fontSize-xl) * 1.5);
+  width: calc(var(--fontSize-xl) * 1.5);
+}
+
+.Nav-svg:hover {
+  transform: scale(1.5);
+}
+
+.About {
+  transform: rotate(-25deg);
+}
+
+.Resume {
+  transform: rotate(9deg);
+}
+
+.Contact {
+  transform: rotate(-19deg);
+}
+
+.Meetup-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Meetup-container > h1 {
+  margin: 0 1.25rem;
+}
+
+@media (max-width: 1024px) {
+  .Meetup-container > h1 {
+    font-size: calc(var(--fontSize-lg) * 0.9);
+    margin: 0 1rem;
+  }
+}

@@ -2,7 +2,7 @@
   "name": "site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rencummings.com",
+  "homepage": "http://rencummings.com",
   "dependencies": {
     "node-sass": "^4.12.0",
     "normalize.css": "^8.0.1",

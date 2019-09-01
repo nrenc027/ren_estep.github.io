@@ -1,0 +1,74 @@
+.ContactPage {
+  display: flex;
+  flex-direction: row;
+  height: 20rem;
+  justify-content: center;
+  margin-top: 15rem;
+  width: 100%;
+}
+
+.ContactPage__card {
+  flex-grow: 1;
+  max-width: 50%;
+  padding: 2rem;
+}
+
+h1.ContactPage__card-text{
+  font-size: var(--fontSize-xl);
+}
+
+h2.ContactPage__card-text{
+  font-size: var(--fontSize-lg);
+  padding: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.ContactPage__card-text > a {
+  color: var(--c-primary);
+  text-align: center;
+  text-decoration: none;
+}
+
+.ContactPage__card-social {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ContactPage__card-social > a {
+  margin: 0.5rem;
+}
+
+.ContactPage__card-text {
+  font-family: var(--body-font);
+  font-size: var(--fontSize-lg);
+}
+@media (max-width: 1024px) {
+  .ContactPage {
+    margin-top: 13rem;
+  }
+  .ContactPage__card {
+    max-width: 80%;
+  }
+
+  h1.ContactPage__card-text{
+    font-size: calc(var(--fontSize-xl) * .7) ;
+  }
+  
+  h2.ContactPage__card-text{
+    font-size: calc(var(--fontSize-lg) * .7);
+    padding: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .ContactPage__card-social{
+    margin: 0 auto;
+    width: 80%;
+  }
+
+
+}

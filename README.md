@@ -1,3 +1,14 @@
+## [Ren Estep.com](www.renestep.com)
+
+Renestep.com is the personal portfolio/resume sit belong to one Ren Estep.
+
+__Items coming in the future:__
+- Blog post listings
+- Updated Resume
+- Links to my cocreation that is Imagine Dat](imgine-dat.com)
+- And other fun experiments
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

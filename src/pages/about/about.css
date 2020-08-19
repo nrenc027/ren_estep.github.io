@@ -1,34 +1,46 @@
 .AboutPage {
-    display: flex;
-    flex-direction: row;
-    height: 20rem;
-    justify-content: center;
-    margin-top: 15rem;
-    width: 100%;
+  height: 20rem;
+  margin-top: 15rem;
+  width: 100%;
+}
+.AboutPage__card {
+  align-items: center;
+  display: grid;
+  grid: "title" "content" "redirect" / 1fr;
+  margin: 0 auto;
+  padding: 2rem;
+  width: 40rem;
+}
+
+.AboutPage__card-text,
+.AboutPage__card-title {
+  font-family: var(--body-font);
+  font-size: var(--fontSize-normal);
+}
+
+.AboutPage__card-title {
+  font-family: var(--body-font);
+  font-size: var(--fontSize-lg);
+}
+
+.AboutPage__card-link {
+  align-self: center;
+  color: var(--c-accent-purple);
+  grid-area: redirect;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .AboutPage {
+    margin-top: 13rem;
   }
   .AboutPage__card {
-    flex-grow: 1;
-    max-width: 50%;
-    padding: 2rem;
-  }
-  .AboutPage__card >a{
-    color:var(--c-accent-purple);
-    text-decoration: none;
+    max-width: 80%;
   }
   .AboutPage__card-text {
     font-family: var(--body-font);
     font-size: var(--fontSize-normal);
   }
-
-  @media (max-width: 1024px) {
-    .AboutPage {
-      margin-top: 13rem;
-    }
-    .AboutPage__card {
-      max-width: 80%;
-    }
-    .AboutPage__card-text {
-      font-family: var(--body-font);
-      font-size: var(--fontSize-normal);
-    }
-  }
+}

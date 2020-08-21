@@ -7,14 +7,14 @@ export default ({ siteTitle }) => (
   <header className="Header">
     <section className="Header__title" aria-label="Ren Estep Website">
       <div className="Header__title-hello">
-        <h1>Hello</h1>
+        <p className="Header__title-hello-hello">Hello</p>
         <p>my name is</p>
       </div>
-      <h1 className="Header__title-heading">
+      <p className="Header__title-heading">
         <Link to="/" aria-label="Ren Goes Home">
           {siteTitle}
         </Link>
-      </h1>
+      </p>
     </section>
     <nav className="Header__nav">
       <Link className="Header__nav-link" to="/about">

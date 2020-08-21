@@ -44,39 +44,40 @@
   position: relative;
   width: 15rem;
   transform: rotate(-15deg);
-}
 
-.Header__title-hello {
-  background: var(--c-primary);
-  border-radius: 1rem 1rem 0 0;
-  position: absolute;
-  width: 100%;
-}
+  &-hello {
+    background: var(--c-primary);
+    border-radius: 1rem 1rem 0 0;
+    position: absolute;
+    width: 100%;
 
-.Header__title-hello > h1 {
-  color: var(--text-light);
-  letter-spacing: 1rem;
-  margin: 0;
-  text-align: center;
-}
+    &-hello {
+      color: var(--text-light);
+      font-size: 1.5rem;
+      letter-spacing: 1rem;
+      margin: 0;
+      text-align: center;
+    }
 
-.Header__title-hello > p {
-  color: var(--text-light);
-  font-family: var(--body-font);
-  margin: 0;
-  text-align: center;
-}
+    > p {
+      color: var(--text-light);
+      font-family: var(--body-font);
+      margin: 0;
+      text-align: center;
+    }
+  }
 
-.Header__title-heading {
-  position: relative;
-  left: 3rem;
-  top: 1rem;
-}
+  &-heading {
+    position: relative;
+    left: 3rem;
+    top: 1rem;
 
-.Header__title-heading > a {
-  color: var(--c-gray-10);
-  font-family: var(--hand-font);
-  font-size: 5rem;
-  letter-spacing: 0.1rem;
-  text-decoration: none;
+    > a {
+      color: var(--c-gray-10);
+      font-family: var(--hand-font);
+      font-size: 5rem;
+      letter-spacing: 0.1rem;
+      text-decoration: none;
+    }
+  }
 }

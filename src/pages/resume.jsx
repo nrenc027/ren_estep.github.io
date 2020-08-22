@@ -11,23 +11,46 @@ export default () => {
           I've Got Skills.
           {/* Education */}
         </h1>
-        <span>
+        <span className="ResumePage__card-skills">
           <article>
-            <h2 className="ResumePage__card-head">Learn-ed</h2>
-            <dl className="ResumePage__card-text">
-              <dt>Web Cert</dt>
-              <dd>2018 - FreeCodeCamp</dd>
-              <dt>MFA</dt>
-              <dd>2012 - University of Tennessee</dd>
-              <dt>BFA</dt>
-              <dd>2008 - Wright State University</dd>
-            </dl>
-            <h2 className="ResumePage__card-text">
-              (́ง◉◞౪◟◉‵)ง
-              {/* Skills */}
+            <h2 className="ResumePage__card-head">
+              I'm Learn-ed <br />
+              with a sense of humor
             </h2>
+            <dl className="ResumePage__card-text">
+              <dt>Web Dev Cert</dt>
+              <dd>2018 : FreeCodeCamp</dd>
+              <dt>MFA</dt>
+              <dd>2012 : University of Tennessee</dd>
+              <dt>BFA</dt>
+              <dd>2008 : Wright State University</dd>
+            </dl>
+            <h2 className="ResumePage__card-head">I've got experience</h2>
+            <dl className="ResumePage__card-text">
+              <dt>Software Engineer</dt>
+              <dd>2018 - present : Mile Two</dd>
+              <dt>Frontend Developer and Designer</dt>
+              <dd>2017 : MRS Electronic</dd>
+              <dt>Manager of Marketing And Creative Services</dt>
+              <dd>2016 - 2017 : MRS Electronic</dd>
+            </dl>
           </article>
-          <article></article>
+          <article>
+            <h2 className="ResumePage__card-head">Practiced Technologies </h2>
+            <dl className="ResumePage__card-text">
+              <dt>Javascript Frameworks and Libraries</dt>
+              <dd>React</dd>
+              <dd>Vue</dd>
+              <dd>Node</dd>
+              <dd>Hapi</dd>
+              <dd>d3</dd>
+              <dt>CSS Preprocessors</dt>
+              <dd>Sass</dd>
+              <dt>Other</dt>
+              <dd>Git version control</dd>
+              <dd>Python</dd>
+            </dl>
+          </article>
         </span>
       </div>
     </section>

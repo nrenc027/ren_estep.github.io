@@ -7,7 +7,7 @@ export default () => {
   return (
     <section className="ContactPage">
       <div className="ContactPage__card">
-        <h2 className="ContactPage__card-title">Hit me up, I'm Online!</h2>
+        <h1 className="ContactPage__card-title">Hit me up, I'm Online!</h1>
         <p className="ContactPage__card-email">
           <a href="mailto:n.ren.estep@gmail.com">n.ren.estep at gmail</a>
         </p>

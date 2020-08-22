@@ -6,20 +6,20 @@ export default () => {
   return (
     <section className="AboutPage" aria-label="About Section">
       <div className="AboutPage__card">
-        <h2 className="AboutPage__card-title">About Me!</h2>
-        <span className="AboutPage__card-text">
-          <p>
+        <h1 className="AboutPage__card-title">About Me!</h1>
+        <article>
+          <p className="AboutPage__card-text">
             I am a software engineer that hails from Dayton, OH. I have recieved
             a masters and batcherlors in Fine Arts focusing on photography and
             4D media. I'm enthusiastic about learning and creative
             problem-solving. In my free time I enjoy running, drawing, creating,
             and watching Asian dramas and anime.
           </p>
-          <p>
+          <p className="AboutPage__card-text">
             I am a co-founder of Imagine Dat, a data vis enthusiasts, with my
             co-worker and friend Milu Franz.
           </p>
-        </span>
+        </article>
         <a
           className="AboutPage__card-link"
           href="https://www.imagine-dat.com"

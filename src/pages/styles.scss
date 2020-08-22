@@ -36,6 +36,10 @@
       margin: 0 0.5rem;
       text-decoration: none;
 
+      @media (max-width: 675px) {
+        margin: 0.5rem;
+      }
+
       > p {
         font-size: 0;
         margin: 0;
@@ -98,16 +102,12 @@
   justify-content: center;
   width: 100%;
 
-  @media (max-width: 1024px) {
-    margin-top: 13rem;
-  }
-
   &__card {
     flex-grow: 1;
     max-width: 50%;
     padding: 2rem;
 
-    @media (max-width: 1024px) {
+    @media (max-width: 767px) {
       max-width: 80%;
     }
 
@@ -115,7 +115,7 @@
       font-family: var(--body-font);
       font-size: var(--fontSize-lg);
 
-      @media (max-width: 1024px) {
+      @media (max-width: 767px) {
         font-family: var(--body-font);
         font-size: var(--fontSize-normal);
       }
@@ -124,12 +124,7 @@
 }
 
 .AboutPage {
-  height: 20rem;
   width: 100%;
-
-  @media (max-width: 1024px) {
-    margin-top: 13rem;
-  }
 
   &__card {
     align-items: center;
@@ -137,16 +132,17 @@
     grid: "title" "content" "redirect" / 1fr;
     margin: 0 auto;
     padding: 2rem;
-    width: 40rem;
+    max-width: 60%;
 
-    @media (max-width: 1024px) {
-      max-width: 80%;
+    @media (max-width: 767px) {
+      max-width: 100%;
     }
 
     &-text {
       font-family: var(--body-font);
       font-size: var(--fontSize-normal);
-      @media (max-width: 1024px) {
+
+      @media (max-width: 767px) {
         font-family: var(--body-font);
         font-size: var(--fontSize-normal);
       }
@@ -169,6 +165,10 @@
       text-transform: uppercase;
       text-align: center;
 
+      @media (max-width: 767px) {
+        font-size: 1rem;
+      }
+
       &:hover,
       &:focus {
         font-size: 2rem;
@@ -183,15 +183,12 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
-  @media (max-width: 1024px) {
-    margin-top: 13rem;
-  }
 
   &__card {
     flex-grow: 1;
     max-width: 50%;
     padding: 2rem;
-    @media (max-width: 1024px) {
+    @media (max-width: 767px) {
       max-width: 80%;
     }
   }
@@ -205,7 +202,7 @@
 
     &-title {
       font-size: var(--fontSize-xl);
-      @media (max-width: 1024px) {
+      @media (max-width: 767px) {
         font-size: calc(var(--fontSize-xl) * 0.7);
       }
     }
@@ -217,7 +214,7 @@
       text-align: center;
       text-transform: capitalize;
 
-      @media (max-width: 1024px) {
+      @media (max-width: 767px) {
         font-size: calc(var(--fontSize-lg) * 0.95);
         padding: 2rem;
         text-align: center;
@@ -243,7 +240,7 @@
       grid: 1fr / 25% 25% 25% 25%;
       width: 100%;
 
-      @media (max-width: 1024px) {
+      @media (max-width: 767px) {
         grid: 50% 50% / 50% 50%;
         margin: 0 auto;
         width: 80%;
@@ -265,14 +262,26 @@
 
   &__card {
     flex-grow: 1;
-    max-width: 50%;
+    max-width: 90%;
     padding: 2rem;
+    @media (max-width: 767px) {
+      padding: 0;
+      max-width: 90%;
+    }
 
     &-skills {
+      justify-items: center;
       display: grid;
       grid: 1fr / 50% 50%;
       height: 55vh;
       overflow: auto;
+
+      @media (max-width: 767px) {
+        justify-items: flex-end;
+        display: block;
+        height: 60vh;
+        overflow: auto;
+      }
     }
 
     &-text {

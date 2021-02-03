@@ -28,7 +28,7 @@ export default () => {
             <h2 className="ResumePage__card-head">I've got experience</h2>
             <dl className="ResumePage__card-text">
               <dt>Software Engineer</dt>
-              <dd>2018 - present : Mile Two</dd>
+              <dd>2017 - present : Mile Two</dd>
               <dt>Frontend Developer and Designer</dt>
               <dd>2017 : MRS Electronic</dd>
               <dt>Manager of Marketing And Creative Services</dt>

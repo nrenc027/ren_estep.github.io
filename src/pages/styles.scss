@@ -5,7 +5,7 @@
 
   &__card {
     flex-grow: 1;
-    max-width: 50%;
+    max-width: 80ch;
     padding: 2rem;
 
     @media (max-width: 767px) {

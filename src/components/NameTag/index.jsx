@@ -9,7 +9,7 @@ export default ()=>(
   <p className="Nametag__hello-nameIs">my name is</p>
 </div>
 <p className="Nametag__title-heading">
-  <Link to="/" aria-label="Ren Goes Home">
+  <Link to="/" aria-label="Go Home">
     Ren
   </Link>
 </p>

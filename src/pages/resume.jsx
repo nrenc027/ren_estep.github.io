@@ -9,7 +9,6 @@ export default () => {
       <div className="ResumePage__card">
         <h1 className="ResumePage__card-title">
           I've Got Skills.
-          {/* Education */}
         </h1>
         <span className="ResumePage__card-skills">
           <article>
@@ -42,7 +41,6 @@ export default () => {
               <dd>React</dd>
               <dd>Vue</dd>
               <dd>Node</dd>
-              <dd>Hapi</dd>
               <dd>d3</dd>
               <dt>CSS Preprocessors</dt>
               <dd>Sass</dd>

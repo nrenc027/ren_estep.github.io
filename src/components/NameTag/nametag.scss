@@ -1,0 +1,48 @@
+.Nametag {
+  &__title {
+    background: var(--c-gray-90);
+    border-bottom: 1rem solid var(--c-primary);
+    border-radius: 1rem;
+    grid-area: title;
+    height: 9rem;
+    position: relative;
+    width: 15rem;
+    transform: rotate(-15deg);
+
+    &-heading {
+      position: relative;
+      left: 3rem;
+      top: 1rem;
+
+      > a {
+        color: var(--c-gray-10);
+        font-family: var(--hand-font);
+        font-size: 5rem;
+        letter-spacing: 0.1rem;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &__hello {
+    background: var(--c-primary);
+    border-radius: 1rem 1rem 0 0;
+    position: absolute;
+    width: 100%;
+
+    &-nameIs {
+      color: var(--text-light);
+      font-family: var(--body-font);
+      margin: 0;
+      text-align: center;
+    }
+
+    &-hello {
+      color: var(--text-light);
+      font: 600 1.5rem "Helvetica Neue";
+      letter-spacing: 1rem;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}

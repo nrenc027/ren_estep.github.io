@@ -1,12 +1,11 @@
 import React from "react";
-import Router from "./pages/router";
+import Router from "pages/router";
 
-function App() {
+export default ()=> {
   return (
     <div className="App">
-      <Router />
+        <Router />
     </div>
   );
 }
 
-export default App;

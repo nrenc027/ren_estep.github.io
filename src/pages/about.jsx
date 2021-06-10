@@ -25,7 +25,7 @@ const AboutPage =() => {
           href="https://www.imagine-dat.com"
           target="blank"
         >
-          Find out more about Imgine Dat!
+          Find out more about Imagine Dat!
         </a>
       </div>
     </section>

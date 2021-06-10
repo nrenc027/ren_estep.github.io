@@ -6,7 +6,7 @@ const DevTo =() => {
       focusable="false"
       data-prefix="fab"
       data-icon="dev"
-      class="svg-inline--fa fa-dev fa-w-14 Nav-svg"
+      className="svg-inline--fa fa-dev fa-w-14 Nav-svg"
       role="img"
       width="24"
       height="24"

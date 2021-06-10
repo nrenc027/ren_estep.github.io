@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles.scss'
 
-export default ({children})=>{
+const Grid =({children})=>{
 return <div className="Grid">{children}</div>
 }
+
+export default Grid;

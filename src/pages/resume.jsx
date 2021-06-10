@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 
-export default () => {
+const ResumePage =() => {
   document.title = "The Resume of Ren Estep: Creator Of Things";
 
   return (
@@ -10,7 +10,7 @@ export default () => {
         <h1 className="ResumePage__card-title">
           I've Got Skills.
         </h1>
-        <span className="ResumePage__card-skills">
+        <span className="ResumePage__card-skills" tabindex="0">
           <article>
             <h2 className="ResumePage__card-head">
               I'm Learn-ed <br />
@@ -54,3 +54,5 @@ export default () => {
     </section>
   );
 };
+
+export default ResumePage;

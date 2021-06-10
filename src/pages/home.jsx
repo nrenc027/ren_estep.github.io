@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 
-export default () => {
+const Home =() => {
   document.title = "Ren Estep: Creator Of Things";
   return (
     <section className="Hero" aria-label="Hero Section">
@@ -19,3 +19,5 @@ export default () => {
     </section>
   );
 };
+
+export default Home;

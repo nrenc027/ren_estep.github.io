@@ -7,6 +7,7 @@ const Github = () => {
       className="Github Nav-svg"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 496 512"
+      role="img"
       aria-labelledby="ghTitle"
     >
       <title id="ghTitle">Find me on Github</title>

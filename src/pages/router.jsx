@@ -7,7 +7,7 @@ import ResumePage from "./resume";
 import Layout from 'components/Layout';
 import "./styles.scss";
 
-export default ({ children }) => {
+const RouterWrap =({ children }) => {
   return (
     <Router>
       <Layout>
@@ -29,3 +29,4 @@ export default ({ children }) => {
     </Router>
   );
 };
+export default  RouterWrap;

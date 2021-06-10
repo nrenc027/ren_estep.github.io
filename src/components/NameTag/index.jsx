@@ -2,15 +2,16 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './nametag.scss';
 
-export default ()=>(
-<span className="Nametag__title" aria-label="Ren Estep Website">
-<div className="Nametag__hello">
-  <p className="Nametag__hello-hello">Hello</p>
-  <p className="Nametag__hello-nameIs">my name is</p>
+const NameTag =()=>(
+<span className="Nametag__title" >
+<div className="Nametag__hello" aria-hidden="true">
+  <p className="Nametag__hello-hello" aria-hidden="true">Hello</p>
+  <p className="Nametag__hello-nameIs" aria-hidden="true">my name is</p>
 </div>
-<p className="Nametag__title-heading">
-  <Link to="/" aria-label="Go Home">
-    Ren
+<p className="Nametag__title-heading" >
+  <Link to="/" aria-label="Go to Ren's Home page" >
+    <span aria-hidden="true">Ren</span>
   </Link>
 </p>
 </span>)
+export default NameTag;

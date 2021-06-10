@@ -5,7 +5,7 @@ import { About, Contact, Resume } from "components/svgs";
 
 import './header.scss'
 
-export default ()=>{
+const Header =()=>{
 return <header className="Header">
 <NameTag/>
 <nav className="Header__nav">
@@ -21,3 +21,4 @@ return <header className="Header">
         </nav>
 </header>
 }
+export default Header;

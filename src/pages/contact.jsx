@@ -2,7 +2,7 @@ import React from "react";
 import { Codepen, Github, Linkedin, Dev } from "../components/svgs";
 import "./styles.scss";
 
-export default () => {
+const ContactPage =() => {
   document.title = "Contact Info for Ren Estep: Creator Of Things";
   return (
     <section className="ContactPage">
@@ -29,3 +29,5 @@ export default () => {
     </section>
   );
 };
+
+export default ContactPage;

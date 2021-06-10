@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 
-export default () => {
+const ResumePage =() => {
   document.title = "The Resume of Ren Estep: Creator Of Things";
 
   return (
@@ -54,3 +54,5 @@ export default () => {
     </section>
   );
 };
+
+export default ResumePage;

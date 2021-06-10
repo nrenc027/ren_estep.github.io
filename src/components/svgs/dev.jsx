@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+const DevTo =() => {
   return (
     <svg
       focusable="false"
@@ -18,3 +18,4 @@ export default () => {
     </svg>
   );
 };
+export default DevTo;

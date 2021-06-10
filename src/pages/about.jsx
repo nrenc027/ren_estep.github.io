@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 
-export default () => {
+const AboutPage =() => {
   document.title = "All about Ren Estep: Creator Of Things";
   return (
     <section className="AboutPage" aria-label="About Section">
@@ -9,8 +9,8 @@ export default () => {
         <h1 className="AboutPage__card-title">About Me!</h1>
         <article>
           <p className="AboutPage__card-text">
-            I am a software engineer that hails from Dayton, OH. I have recieved
-            a masters and batcherlors in Fine Arts focusing on photography and
+            I am a software engineer that hails from Dayton, OH. I have received
+            a masters and bachelors in Fine Arts focusing on photography and
             4D media. I'm enthusiastic about learning and creative
             problem-solving. In my free time I enjoy running, drawing, creating,
             and watching Asian dramas and anime.
@@ -31,3 +31,5 @@ export default () => {
     </section>
   );
 };
+
+export default AboutPage;

@@ -4,7 +4,7 @@ import Header from 'components/Header';
 import './layout.scss'
 
 
-export default ({children})=>{
+const Layout =({children})=>{
 return <Grid>
     <Header/>
     <main>
@@ -12,3 +12,4 @@ return <Grid>
     </main>
 </Grid>
 }
+export default  Layout;

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import './nametag.scss';
 
-export default ()=>(
+const NameTag =()=>(
 <span className="Nametag__title" aria-label="Ren Estep Website">
 <div className="Nametag__hello">
   <p className="Nametag__hello-hello">Hello</p>
@@ -14,3 +14,4 @@ export default ()=>(
   </Link>
 </p>
 </span>)
+export default NameTag;

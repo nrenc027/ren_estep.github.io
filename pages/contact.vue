@@ -1,40 +1,18 @@
 <template>
-  <section class="ResumePage" aria-label="Resume Section">
-    <h1 class="ResumePage-title">Hit me up, I'm Online!</h1>
-    <article class="ResumePage-edu">
-      <h2>Education</h2>
-      <dl>
-        <dt>2011 - MFA - The University of Tenessee</dt>
-        <dd>
-          Area of Study - 4D Media <br />
-          Accomplishments - Teaching Associateship.
-        </dd>
-        <dt>2008 - BFA - Wright State University</dt>
-        <dd>
-          Area of Study - Photography <br />
-          Accomplishments - Yeck Fellowship via Dayton Art Istitute.
-        </dd>
-      </dl>
+  <section class="ContactPage" aria-label="Resume Section">
+    <h1 class="ContactPage-title">Hit me up, I'm Online!</h1>
+    <article>
+      <h2 class="ContactPage-email">
+        <a href="mailto:n.ren.estep@gmail.com">n.ren.estep at gmail</a>
+      </h2>
     </article>
-    <article class="ResumePage-exp">
-      <h2>Where I'm Working</h2>
-      <dl>
-        <dt>2017 till Present - Mile Two, LLC</dt>
-        <dd>
-          <strong>Software Engineer</strong> <br />
-          Projects involving ReactJS frontend development with additional use of
-          NextJS, Python backend frameworks such as flask, NodeJS backend
-          frameworks such as Express.<br />
-          Agile prototype development via government contracts in respects to
-          {{ `R&D` }} work.
-        </dd>
-      </dl>
-    </article>
-    <article class="ResumePage-exp">
-      <h2>For More Infomation</h2>
-      <ul>
-        <li>linkedin</li>
-        <li>Download my actual resume</li>
+    <article class="ContactPage-social">
+      <h2 class="ContactPage-social-title">Oh look Im social!</h2>
+      <ul class="ContactPage-social-list">
+        <li>git</li>
+        <li>dev</li>
+        <li>pen</li>
+        <li>tweet</li>
       </ul>
     </article>
   </section>
@@ -43,25 +21,43 @@
 <style lang="scss">
 $layout-breakpoint-small: 960px;
 
-blockquote {
-  font-weight: 500;
-}
-.ResumePage {
+.ContactPage {
   @media (max-width: $layout-breakpoint-small) {
     max-height: 70vh;
     max-width: 100%;
     overflow: auto;
   }
 
+  align-items: center;
+  display: flex;
+  flex-direction: column;
   max-width: 80ch;
 
-  &-edu,
-  &-exp {
-    dt {
-      font-weight: 700;
+  &-title {
+    align-self: flex-start;
+    text-align: left;
+  }
+
+  &-email {
+    text-align: center;
+    font-size: 3rem;
+    a {
+      color: var(--color-primary);
+      text-decoration: 0;
     }
-    dd {
-      max-width: 55ch;
+  }
+  &-social {
+    &-title {
+      font-size: 1.25rem;
+    }
+    &-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      li {
+        margin: 1em;
+        padding: 2em;
+      }
     }
   }
 }

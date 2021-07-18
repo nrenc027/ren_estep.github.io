@@ -1,0 +1,17 @@
+{
+  "AboutSvg": {
+    "description": "Auto imported from components/AboutSvg.vue"
+  },
+  "ContactSvg": {
+    "description": "Auto imported from components/ContactSvg.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "PostCard": {
+    "description": "Auto imported from components/PostCard.vue"
+  },
+  "ResumeSvg": {
+    "description": "Auto imported from components/ResumeSvg.vue"
+  }
+}

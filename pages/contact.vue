@@ -9,14 +9,40 @@
     <article class="ContactPage-social">
       <h2 class="ContactPage-social-title">Oh look Im social!</h2>
       <ul class="ContactPage-social-list">
-        <li>git</li>
-        <li>dev</li>
-        <li>pen</li>
-        <li>tweet</li>
+        <li class="LinkHoverFocus">
+          <a href="https://github.com/storiesOfRen" target="_blank">
+            <GitHubSvg />
+          </a>
+        </li>
+        <li class="LinkHoverFocus">
+          <a href="https://dev.to/stories_of_ren" target="_blank">
+            <DevSvg
+          /></a>
+        </li>
+        <li class="LinkHoverFocus">
+          <a href="https://codepen.io/ren_estep" target="_blank">
+            <CodePenSvg
+          /></a>
+        </li>
+        <li class="LinkHoverFocus">
+          <a href="https://twitter.com/stories_of_ren" target="_blank">
+            <TwitterSvg
+          /></a>
+        </li>
       </ul>
     </article>
   </section>
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: 'Hit Me Up | Ren Estep',
+    }
+  },
+}
+</script>
 
 <style lang="scss">
 $layout-breakpoint-small: 960px;
@@ -41,23 +67,29 @@ $layout-breakpoint-small: 960px;
   &-email {
     text-align: center;
     font-size: 3rem;
+    transition: transform 200ms;
     a {
       color: var(--color-primary);
       text-decoration: 0;
     }
+    &:hover,
+    &:focus-within {
+      border-bottom: 1px dotted #b200fd;
+      outline: none;
+      transform: scale(1.25);
+    }
   }
   &-social {
+    width: 100%;
     &-title {
       font-size: 1.25rem;
     }
     &-list {
       display: flex;
+      justify-content: space-evenly;
       list-style: none;
       padding: 0;
-      li {
-        margin: 1em;
-        padding: 2em;
-      }
+      width: 100%;
     }
   }
 }

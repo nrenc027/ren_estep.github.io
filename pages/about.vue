@@ -34,6 +34,16 @@
   </section>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      title: 'All About Me | Ren Estep',
+    }
+  },
+}
+</script>
+
 <style lang="scss">
 $layout-breakpoint-small: 960px;
 

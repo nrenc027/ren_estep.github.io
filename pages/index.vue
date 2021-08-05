@@ -54,8 +54,33 @@ export default {
 }
 </script>
 
-<style lang="scss" >
+<style lang="scss">
 $layout-breakpoint-small: 960px;
+.LinkHoverFocus {
+  border: 1px dotted transparent;
+  height: 2em;
+  margin: 1em;
+  transition: transform 200ms;
+  width: 2em;
+
+  a {
+    align-items: center;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    width: inherit;
+  }
+  svg {
+    fill: var(--color-primary);
+  }
+
+  &:hover,
+  &:focus-within {
+    border: 1px dotted #b200fd;
+    border-radius: 50%;
+    transform: scale(1.5);
+  }
+}
 
 .srOnly {
   height: 0;
@@ -107,7 +132,7 @@ $layout-breakpoint-small: 960px;
     display: flex;
     flex-direction: column;
     list-style: none;
-    max-height: 52vh;
+    height: 50vh;
     overflow: auto;
     padding: 0;
     padding-left: 0.5rem;

@@ -49,7 +49,7 @@ html {
 
 .App_Content {
   display: grid;
-  grid: 1fr / auto 1fr;
+  grid: 1fr / 20% 1fr;
   width: 100%;
   height: 98vh;
   overflow: hidden;

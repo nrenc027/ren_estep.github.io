@@ -1,0 +1,35 @@
+{
+  "AboutSvg": {
+    "description": "Auto imported from components/AboutSvg.vue"
+  },
+  "CodePenSvg": {
+    "description": "Auto imported from components/CodePenSvg.vue"
+  },
+  "ContactSvg": {
+    "description": "Auto imported from components/ContactSvg.vue"
+  },
+  "DevSvg": {
+    "description": "Auto imported from components/DevSvg.vue"
+  },
+  "DownloadSvg": {
+    "description": "Auto imported from components/DownloadSvg.vue"
+  },
+  "GitHubSvg": {
+    "description": "Auto imported from components/GitHubSvg.vue"
+  },
+  "LinkedInSVG": {
+    "description": "Auto imported from components/LinkedInSVG.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "PostCard": {
+    "description": "Auto imported from components/PostCard.vue"
+  },
+  "ResumeSvg": {
+    "description": "Auto imported from components/ResumeSvg.vue"
+  },
+  "TwitterSvg": {
+    "description": "Auto imported from components/TwitterSvg.vue"
+  }
+}

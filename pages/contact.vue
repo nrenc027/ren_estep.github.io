@@ -58,6 +58,11 @@ $layout-breakpoint-small: 960px;
   display: flex;
   flex-direction: column;
   max-width: 80ch;
+  a {
+    color: var(--color-primary);
+    outline: none;
+    text-decoration: 0;
+  }
 
   &-title {
     align-self: flex-start;
@@ -68,10 +73,7 @@ $layout-breakpoint-small: 960px;
     text-align: center;
     font-size: 3rem;
     transition: transform 200ms;
-    a {
-      color: var(--color-primary);
-      text-decoration: 0;
-    }
+
     &:hover,
     &:focus-within {
       border-bottom: 1px dotted #b200fd;

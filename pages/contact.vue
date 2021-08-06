@@ -7,7 +7,7 @@
       </h2>
     </article>
     <article class="ContactPage-social">
-      <h2 class="ContactPage-social-title">Oh look Im social!</h2>
+      <h2 class="ContactPage-social-title">Oh look I'm social!</h2>
       <ul class="ContactPage-social-list">
         <li class="LinkHoverFocus">
           <a href="https://github.com/storiesOfRen" target="_blank">

@@ -52,7 +52,9 @@ blockquote {
 }
 .AboutPage {
   @media (max-width: $layout-breakpoint-small) {
+    height: 100vh;
     max-width: 100%;
+    overflow: scroll;
   }
 
   max-width: 80ch;
@@ -60,6 +62,13 @@ blockquote {
   &-quoteAuth {
     font-weight: 700;
     max-width: 75ch;
+  }
+
+  article {
+    @media (max-width: $layout-breakpoint-small) {
+      height: 100vh;
+      padding-bottom: 8rem;
+    }
   }
 }
 </style>

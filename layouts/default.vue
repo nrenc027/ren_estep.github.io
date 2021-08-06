@@ -81,12 +81,22 @@ html {
       flex-direction: column;
     }
     &-first {
+      @media (max-width: 500px) {
+        font-size: 3rem;
+        margin-bottom: -0.75rem;
+      }
+
       font-size: 5rem;
       font-family: 'Montserrat', sans-serif;
       font-weight: 900;
       margin-bottom: -1.35rem;
     }
     &-last {
+      @media (max-width: 500px) {
+        font-size: 1.65rem;
+        margin-left: 0.17rem;
+      }
+
       font-size: 3rem;
       font-family: 'Montserrat', sans-serif;
       letter-spacing: 5px;

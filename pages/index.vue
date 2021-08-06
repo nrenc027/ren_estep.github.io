@@ -125,7 +125,7 @@ $layout-breakpoint-small: 960px;
 
   &_entries {
     @media (max-width: $layout-breakpoint-small) {
-      max-height: 100%;
+      overflow: unset;
       padding-left: 0;
     }
 

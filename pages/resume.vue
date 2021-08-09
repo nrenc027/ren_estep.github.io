@@ -79,6 +79,7 @@ $layout-breakpoint-small: 960px;
     max-height: 70vh;
     max-width: 100%;
     overflow: auto;
+    padding-bottom: 5rem;
   }
 
   max-width: 80ch;

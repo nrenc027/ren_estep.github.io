@@ -24,7 +24,7 @@
         <p><strong>Quarky facts</strong></p>
         <ul>
           <li>
-            I have a tattoo of a velociraptor on my right shoulded that denotes
+            I have a tattoo of a velociraptor on my right shoulder that denotes
             my love for the movie Jurassic Park. It says, "Clever Girl'
           </li>
           <li>I organize a running club of about 3 - 5 people</li>

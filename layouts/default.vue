@@ -41,6 +41,7 @@ export default {
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 $layout-breakpoint-small: 960px;
+
 html {
   --color-primary: #b200fd;
 
@@ -53,10 +54,12 @@ html {
   width: 100%;
   height: 98vh;
   overflow: hidden;
+
   @media (max-width: $layout-breakpoint-small) {
     grid: 0.5fr / 1fr;
   }
 }
+
 .Header {
   &_title {
     display: flex;
@@ -68,6 +71,7 @@ html {
       text-decoration: none;
       border: 2px solid transparent;
       border-radius: 6px;
+
       &:focus {
         outline: none;
         border: 2px dotted var(--color-primary);
@@ -80,6 +84,7 @@ html {
       display: flex;
       flex-direction: column;
     }
+
     &-first {
       @media (max-width: 500px) {
         font-size: 3rem;
@@ -91,6 +96,7 @@ html {
       font-weight: 900;
       margin-bottom: -1.35rem;
     }
+
     &-last {
       @media (max-width: 500px) {
         font-size: 1.65rem;
@@ -102,12 +108,15 @@ html {
       letter-spacing: 5px;
     }
   }
+
   &_nav {
     margin-top: 0.5rem;
     display: flex;
+
     &-anchor {
       margin: 0.75rem;
       transition: transform 200ms;
+
       &:hover,
       &:focus {
         outline: none;
@@ -119,6 +128,7 @@ html {
 
     &-link {
       padding: 0.5rem;
+
       svg {
         height: 2rem;
         width: 2rem;
@@ -126,6 +136,7 @@ html {
     }
   }
 }
+
 .Main {
   @media (max-width: $layout-breakpoint-small) {
     border-left: 0;
@@ -144,6 +155,7 @@ html {
     border-radius: 6px;
   }
 }
+
 .SkipNav {
   opacity: 0;
 

@@ -42,6 +42,7 @@ $layout-breakpoint-small: 960px;
 
   &_title {
     margin-bottom: 10px;
+
     &-link {
       color: var(--color-primary);
       text-decoration: none;
@@ -60,6 +61,7 @@ $layout-breakpoint-small: 960px;
   &_tags {
     display: flex;
     padding: 0;
+
     li {
       border: 1px solid var(--color-primary);
       border-radius: 20px;

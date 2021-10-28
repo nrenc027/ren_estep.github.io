@@ -3,24 +3,28 @@
     "name": "about",
     "path": "/about",
     "component": "/Users/restep/Documents/dev/ren-estep/pages/about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_1ed4576e"
   },
   {
     "name": "contact",
     "path": "/contact",
     "component": "/Users/restep/Documents/dev/ren-estep/pages/contact.vue",
-    "chunkName": "pages/contact"
+    "chunkName": "pages/contact",
+    "_name": "_24eeba5c"
   },
   {
     "name": "resume",
     "path": "/resume",
     "component": "/Users/restep/Documents/dev/ren-estep/pages/resume.vue",
-    "chunkName": "pages/resume"
+    "chunkName": "pages/resume",
+    "_name": "_a368b7be"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/restep/Documents/dev/ren-estep/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_104daf0e"
   }
 ]

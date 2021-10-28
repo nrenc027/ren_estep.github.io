@@ -74,6 +74,7 @@ export default {
 
 <style lang="scss">
 $layout-breakpoint-small: 960px;
+
 .ResumePage {
   @media (max-width: $layout-breakpoint-small) {
     max-height: 70vh;
@@ -93,14 +94,17 @@ $layout-breakpoint-small: 960px;
     dt {
       font-weight: 700;
     }
+
     dd {
       max-width: 55ch;
     }
   }
+
   &-extraInfo {
     list-style: none;
     display: flex;
   }
+
   &-extraItems {
     margin: 0.75rem;
 
@@ -111,6 +115,7 @@ $layout-breakpoint-small: 960px;
       height: 2rem;
       margin: 0;
       width: 2rem;
+
       svg {
         width: 1rem;
       }

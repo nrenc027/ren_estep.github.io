@@ -56,6 +56,7 @@ export default {
 
 <style lang="scss">
 $layout-breakpoint-small: 960px;
+
 .LinkHoverFocus {
   border: 1px dotted transparent;
   height: 2em;
@@ -70,6 +71,7 @@ $layout-breakpoint-small: 960px;
     justify-content: center;
     width: inherit;
   }
+
   svg {
     fill: var(--color-primary);
   }
@@ -87,6 +89,7 @@ $layout-breakpoint-small: 960px;
   width: 0;
   font-size: 0;
 }
+
 .Content {
   @media (max-width: $layout-breakpoint-small) {
     border-left: 0;
@@ -98,6 +101,7 @@ $layout-breakpoint-small: 960px;
 
   width: 80ch;
 }
+
 .Card {
   @media (max-width: $layout-breakpoint-small) {
     padding: 0;
@@ -116,6 +120,7 @@ $layout-breakpoint-small: 960px;
     max-width: 80ch;
   }
 }
+
 .Blog {
   @media (max-width: $layout-breakpoint-small) {
     padding: 0;

@@ -58,6 +58,7 @@ $layout-breakpoint-small: 960px;
   display: flex;
   flex-direction: column;
   max-width: 80ch;
+
   a {
     color: var(--color-primary);
     outline: none;
@@ -81,11 +82,14 @@ $layout-breakpoint-small: 960px;
       transform: scale(1.25);
     }
   }
+
   &-social {
     width: 100%;
+
     &-title {
       font-size: 1.25rem;
     }
+
     &-list {
       display: flex;
       justify-content: space-evenly;

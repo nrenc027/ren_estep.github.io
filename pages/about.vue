@@ -50,6 +50,7 @@ $layout-breakpoint-small: 960px;
 blockquote {
   font-weight: 500;
 }
+
 .AboutPage {
   @media (max-width: $layout-breakpoint-small) {
     height: 100vh;

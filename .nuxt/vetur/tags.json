@@ -17,6 +17,9 @@
   "GitHubSvg": {
     "description": "Auto imported from components/GitHubSvg.vue"
   },
+  "JobDeets": {
+    "description": "Auto imported from components/JobDeets.vue"
+  },
   "LinkedInSVG": {
     "description": "Auto imported from components/LinkedInSVG.vue"
   },

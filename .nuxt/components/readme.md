@@ -12,6 +12,7 @@ You can directly use them in pages and other components without the need to impo
 - `<DevSvg>` | `<dev-svg>` (components/DevSvg.vue)
 - `<DownloadSvg>` | `<download-svg>` (components/DownloadSvg.vue)
 - `<GitHubSvg>` | `<git-hub-svg>` (components/GitHubSvg.vue)
+- `<JobDeets>` | `<job-deets>` (components/JobDeets.vue)
 - `<LinkedInSVG>` | `<linked-in-s-v-g>` (components/LinkedInSVG.vue)
 - `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
 - `<PostCard>` | `<post-card>` (components/PostCard.vue)

@@ -2,39 +2,9 @@
   <section class="ResumePage" aria-label="Resume Section">
     <h1 class="ResumePage-title">I got Skillz!!!</h1>
     <article class="ResumePage-exp">
-      <h2>Where I'm Working</h2>
-      <dl>
-        <dt>2017 till Present - Mile Two, LLC</dt>
-        <dd>
-          <strong>Software Engineer</strong> <br />
-          Projects involving ReactJS frontend development with additional use of
-          NextJS, Python backend frameworks such as flask, NodeJS backend
-          frameworks such as Express.<br />
-          Agile prototype development via government contracts in respects to
-          {{ `R&D` }} work.
-        </dd>
-      </dl>
-    </article>
-    <article class="ResumePage-edu">
-      <h2>Education</h2>
-      <dl>
-        <dt>2011 - MFA - The University of Tenessee</dt>
-        <dd>
-          Area of Study - 4D Media <br />
-          Accomplishments - Teaching Associateship.
-        </dd>
-        <dt>2008 - BFA - Wright State University</dt>
-        <dd>
-          Area of Study - Photography <br />
-          Accomplishments - Yeck Fellowship via Dayton Art Istitute.
-        </dd>
-      </dl>
-    </article>
-
-    <article class="ResumePage-exp">
-      <h2>For More Infomation</h2>
       <ul class="ResumePage-extraInfo">
         <li class="ResumePage-extraItems">
+          Check me out on LinkedIn
           <div class="ResumePage-extraItems-link LinkHoverFocus">
             <a
               href="https://www.linkedin.com/in/rencummings/"
@@ -46,6 +16,7 @@
           </div>
         </li>
         <li class="ResumePage-extraItems">
+          Download my resume
           <div class="ResumePage-extraItems-link LinkHoverFocus">
             <a
               href="/RenEstep_Resume.pdf"
@@ -59,11 +30,82 @@
         </li>
       </ul>
     </article>
+    <div class="ResumePage-scrollContainer" tabindex="0">
+      <article class="ResumePage-exp">
+        <h2>I've Got Experience</h2>
+        <JobDeets :experiences="experiences" />
+      </article>
+      <article class="ResumePage-edu">
+        <h2>Education</h2>
+        <dl>
+          <dt>2011 - MFA - The University of Tenessee</dt>
+          <dd>
+            Area of Study - 4D Media <br />
+            Accomplishments - Teaching Associateship.
+          </dd>
+          <dt>2008 - BFA - Wright State University</dt>
+          <dd>
+            Area of Study - Photography <br />
+            Accomplishments - Yeck Fellowship via Dayton Art Istitute.
+          </dd>
+        </dl>
+      </article>
+    </div>
   </section>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      experiences: [
+        {
+          business: 'Mile Two, LLC',
+          positions: [
+            {
+              title: '09/2021 till Present - Sr Software Engineer',
+              deets: [
+                `Mentors associate and mid-level engineers on problem solving, development blockers, and accessibility best practices.`,
+                `Researches and makes decisions in regards to tools and modules used within the technical stack of projects.`,
+                `Leads and participates in technical discussions with customers and team`,
+                'Collaborated on and developed many projects utilizing ReactJS, Next.js, NodeJs, Python, Postgres and MongoDB',
+                `Agile prototype development via government contracts in respects to ${`R&D`} work.`,
+              ],
+            },
+            {
+              title: '2017 till 09/2021 - Software Engineer',
+              deets: [
+                'Collaborated on and developed many projects utilizing ReactJS, Next.js, NodeJs, Python, Postgres and MongoDB',
+                `Introduced improvements to accessibility compliance through integrating axe-core wrapper on projects and eslint accessibility plugins to catch code that produces inaccessible applications`,
+                `Mentored associate level and intern employees through pairing sessions and public presentations on accessibility and CSS skills`,
+                `Agile prototype development via government contracts in respects to ${`R&D`} work.`,
+              ],
+            },
+          ],
+        },
+        {
+          business: 'MRS Electronic',
+          positions: [
+            {
+              title: '04/2017 - 11/2017 : Developer/Designer',
+              deets: [
+                'Design and produce iconography for mobile and desktop applications.',
+                `Developed multiple projects using JavaScript, AngularJS, CSS, Swift, and C#`,
+              ],
+            },
+            {
+              title: `04/2016 - 04/2017 : Manager of Marketing & Creative Services`,
+              deets: [
+                'Maintain website content',
+                `Design, produce, and schedule content for social media`,
+                `Design UI Wireframes`,
+              ],
+            },
+          ],
+        },
+      ],
+    }
+  },
   head() {
     return {
       title: 'Resume | Ren Estep',
@@ -89,6 +131,19 @@ $layout-breakpoint-small: 960px;
     fill: var(--color-primary);
   }
 
+  &-scrollContainer {
+    border: 2px dotted transparent;
+    max-height: 76vh;
+    overflow: scroll;
+    padding: 1em;
+
+    &:focus {
+      outline: none;
+      border: 2px dotted var(--color-primary);
+      border-radius: 6px;
+    }
+  }
+
   &-edu,
   &-exp {
     dt {
@@ -103,9 +158,13 @@ $layout-breakpoint-small: 960px;
   &-extraInfo {
     list-style: none;
     display: flex;
+    justify-content: space-evenly;
   }
 
   &-extraItems {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     margin: 0.75rem;
 
     &-download {

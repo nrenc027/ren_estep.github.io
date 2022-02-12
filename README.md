@@ -1,4 +1,11 @@
-# nuxt-ren
+# [Ren Estep dot com](renestep.com)
+
+Personal portfolio for Ren Estep, a software engineer hailing from Dayton, Ohio.
+
+Portfolio site is built with [NuxtJS](https://nuxtjs.org).
+styled using scss: Sassy Cascading Style Sheets
+
+Below you can read about Nuxt specifics of the Project.
 
 ## Build Setup
 
@@ -13,8 +20,12 @@ $ npm run dev
 $ npm run build
 $ npm run start
 
+# Manual deployment to github pages
 # generate static project
 $ npm run generate
+
+# deploy static project
+$ npm run deploy
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
@@ -40,7 +51,6 @@ More information about the usage of this directory in [the documentation](https:
 Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
 
 ### `pages`
 

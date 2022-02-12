@@ -1,4 +1,4 @@
-# [Ren Estep dot com](renestep.com)
+# [Ren Estep dot com](www.renestep.com)
 
 Personal portfolio for Ren Estep, a software engineer hailing from Dayton, Ohio.
 

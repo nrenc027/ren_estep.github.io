@@ -19,7 +19,7 @@
           Download my resume
           <div class="ResumePage-extraItems-link LinkHoverFocus">
             <a
-              href="/RenEstep_Resume.pdf"
+              href="/REN-ESTEP-RESUME-22.pdf"
               target="_blank"
               download=""
               class="ResumePage-extraItems-download"

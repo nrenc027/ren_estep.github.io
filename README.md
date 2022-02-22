@@ -23,6 +23,7 @@ $ npm run start
 # Manual deployment to github pages
 # generate static project
 $ npm run generate
+# commit your changes or deploy will fail
 
 # deploy static project
 $ npm run deploy

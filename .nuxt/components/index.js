@@ -1,15 +1,15 @@
-export { default as AboutSvg } from '../../components/AboutSvg.vue'
-export { default as CodePenSvg } from '../../components/CodePenSvg.vue'
-export { default as ContactSvg } from '../../components/ContactSvg.vue'
-export { default as DevSvg } from '../../components/DevSvg.vue'
-export { default as DownloadSvg } from '../../components/DownloadSvg.vue'
-export { default as GitHubSvg } from '../../components/GitHubSvg.vue'
-export { default as JobDeets } from '../../components/JobDeets.vue'
-export { default as LinkedInSVG } from '../../components/LinkedInSVG.vue'
-export { default as NuxtLogo } from '../../components/NuxtLogo.vue'
-export { default as PostCard } from '../../components/PostCard.vue'
-export { default as ResumeSvg } from '../../components/ResumeSvg.vue'
-export { default as TwitterSvg } from '../../components/TwitterSvg.vue'
+export const AboutSvg = () => import('../../components/AboutSvg.vue' /* webpackChunkName: "components/about-svg" */).then(c => wrapFunctional(c.default || c))
+export const CodePenSvg = () => import('../../components/CodePenSvg.vue' /* webpackChunkName: "components/code-pen-svg" */).then(c => wrapFunctional(c.default || c))
+export const ContactSvg = () => import('../../components/ContactSvg.vue' /* webpackChunkName: "components/contact-svg" */).then(c => wrapFunctional(c.default || c))
+export const DevSvg = () => import('../../components/DevSvg.vue' /* webpackChunkName: "components/dev-svg" */).then(c => wrapFunctional(c.default || c))
+export const DownloadSvg = () => import('../../components/DownloadSvg.vue' /* webpackChunkName: "components/download-svg" */).then(c => wrapFunctional(c.default || c))
+export const GitHubSvg = () => import('../../components/GitHubSvg.vue' /* webpackChunkName: "components/git-hub-svg" */).then(c => wrapFunctional(c.default || c))
+export const JobDeets = () => import('../../components/JobDeets.vue' /* webpackChunkName: "components/job-deets" */).then(c => wrapFunctional(c.default || c))
+export const LinkedInSVG = () => import('../../components/LinkedInSVG.vue' /* webpackChunkName: "components/linked-in-s-v-g" */).then(c => wrapFunctional(c.default || c))
+export const NuxtLogo = () => import('../../components/NuxtLogo.vue' /* webpackChunkName: "components/nuxt-logo" */).then(c => wrapFunctional(c.default || c))
+export const PostCard = () => import('../../components/PostCard.vue' /* webpackChunkName: "components/post-card" */).then(c => wrapFunctional(c.default || c))
+export const ResumeSvg = () => import('../../components/ResumeSvg.vue' /* webpackChunkName: "components/resume-svg" */).then(c => wrapFunctional(c.default || c))
+export const TwitterSvg = () => import('../../components/TwitterSvg.vue' /* webpackChunkName: "components/twitter-svg" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
